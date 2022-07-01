@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void){
-    /* Tabela de Cubos*/
+    /* Tabela de Quadrados e Cubos*/
 
     int zero, um, dois, tres, quatro, cinco, seis, sete, oito, nove, dez;
 

@@ -3,7 +3,7 @@
 int main(void){
     int numero,a,b,c,d,e;
 
-    printf("Digite um numero: ");
+    printf("Digite um numero de 5 casas decimais: ");
     scanf("%d", &numero);
 
     a = numero % 10;
