@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(void){
+int main(void)
+{
     /*Achando o maior numero*/
     int i, maior, numero;
 
@@ -11,10 +12,12 @@ int main(void){
 
     maior = numero;
 
-    while(i < 10){
+    while (i < 10)
+    {
         printf("Digite o numero: ");
         scanf("%d", &numero);
-        if (numero > maior){
+        if (numero > maior)
+        {
             maior = numero;
         }
         i++;
@@ -23,5 +26,4 @@ int main(void){
     printf("O maior numero inserido foi %d", maior);
 
     return 0;
-
 }

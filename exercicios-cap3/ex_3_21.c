@@ -1,13 +1,15 @@
 #include <stdio.h>
 
-int main(void){
+int main(void)
+{
     /*Calculadora de salário*/
     int horas_trabalhadas;
     float salario_hora, salario_final;
 
     printf("Digite a quantidade de horas trabalhadas (-1 para sair): ");
     scanf("%d", &horas_trabalhadas);
-    while (horas_trabalhadas != -1){
+    while (horas_trabalhadas != -1)
+    {
         printf("Digite o salario por hora: ");
         scanf("%f", &salario_hora);
         if (horas_trabalhadas > 40)

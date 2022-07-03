@@ -1,9 +1,10 @@
 #include <stdio.h>
 
-int main(void){
+int main(void)
+{
     float renda_fixa_semanal, vendas;
     renda_fixa_semanal = 200;
-    printf("Digite o valor das vendas: ");
+    printf("Digite o valor das vendas (-1 para sair): ");
     scanf("%f", &vendas);
     while (vendas != -1)
     {
